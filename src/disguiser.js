@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('body').delegate('a.disguiser', 'click', function() {
+  $('body').on('click', 'a.disguiser', function() {
     var href = $(this).attr('href');
     if(href.match(/^http/)){
       var destination = href;

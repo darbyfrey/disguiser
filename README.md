@@ -6,7 +6,7 @@ Disguiser is a simple Chrome extension that will allow you to trigger specified 
 
 ## Installation
 
-This extension is still pretty new and it might be buggy, so I haven't put it in the Extensions store yet. If you want to try it out, you can [download it here](bin/disguiser.crx). Then, drag the file on to the extensions manager to install it.
+This extension is still pretty new and it might be buggy, so I haven't put it in the Extensions store yet. If you want to try it out, you can [download it here](https://github.com/darbyfrey/disguiser/raw/master/bin/disguiser.crx). Then, drag the file on to the extensions manager to install it.
 
 ## Usage
 

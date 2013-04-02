@@ -1,0 +1,21 @@
+{
+  "name": "disguiser",
+  "version": "1.0",
+  "description": "A simple Chrome extension to force pages to load in an incognito window.",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+  "background": {"persistent": true, "page": "background.html"},
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery.js", "disguiser.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
